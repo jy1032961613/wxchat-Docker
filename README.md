@@ -17,6 +17,6 @@ services:
         container_name: wxchat
         restart: always
         ports:
-            - '80:80'
+            - '3100:80'
         image: 'ddsderek/wxchat:latest'
 ```
